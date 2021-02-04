@@ -6,12 +6,58 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vertical Slider</title>
 
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+    crossorigin="anonymous" />
+
   <!-- Custom CSS -->
   <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
 
 <body>
-
+  <div class="slider-container">
+    <div class="left-slide">
+      <div style="background-color: #fd3555">
+        <h1>Natural Flower</h1>
+        <p>all in pink</p>
+      </div>
+      <div style="background-color: #2a86ba">
+        <h1>Bluuue Sky</h1>
+        <p>with it's mountains</p>
+      </div>
+      <div style="background-color: #252e33">
+        <h1>Lonely Castle</h1>
+        <p>in the wilderness</p>
+      </div>
+      <div style="background-color: #ffb866">
+        <h1>Flying Eagle</h1>
+        <p>in the sunset</p>
+      </div>
+    </div>
+    <div class="right-slide">
+      <div
+        style="background-image: url(https://images.unsplash.com/photo-1572254939712-70b5a7f82769?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8Zmx5aW5nJTIwZWFnbGV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60)">
+      </div>
+      <div
+        style="background-image: url(https://images.unsplash.com/photo-1612014483304-222eba1b4f17?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzF8fHBpbmslMjBmbG93ZXJ8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60)">
+      </div>
+      <div
+        style="background-image: url(https://images.unsplash.com/photo-1612014483304-222eba1b4f17?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzF8fHBpbmslMjBmbG93ZXJ8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60)">
+      </div>
+      <div
+        style="background-image: url(https://images.unsplash.com/photo-1612014483304-222eba1b4f17?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzF8fHBpbmslMjBmbG93ZXJ8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60)">
+      </div>
+    </div>
+    <div class="action-buttons">
+      <button class="down-button">
+        <i class="fas fa-arrow-down"></i>
+      </button>
+      <button class="up-button">
+        <i class="fas fa-arrow-up"></i>
+      </button>
+    </div>
+  </div>
   <!-- Scripts -->
   <script src="./assets/scripts/app.js"></script>
 </body>
